@@ -1,5 +1,7 @@
 # ScrapeWave
 
+![scrapewave terminal image](scrapewave.png)
+
 🕷️ **ScrapeWave** is a starter project for any scraping task where you want to monitor the progress and save data after scarping.
 
 This project uses multiple technologies to achieve the requirement.
