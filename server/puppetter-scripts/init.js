@@ -4,7 +4,7 @@ export class DataExtractorPuppeteer {
     urlData;
     driver;
     completedEmails = [];
-    pageConfig = { waitUntil: 'networkidle0', timeout: 3000 }
+    pageConfig = { waitUntil: 'networkidle0', timeout: 30000 }
 
     constructor(driver, urlItem) {
         this.driver = driver;

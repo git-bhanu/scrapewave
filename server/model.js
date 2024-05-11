@@ -23,11 +23,4 @@ export default class Url {
             this.id
         );
     }
-
-    async setCompletedEmailCount(count) {
-        return database.run(`UPDATE ${databaseTableName} SET completed_email_count = ? WHERE id = ?`,
-            count,
-            this.id
-        );
-    }
 }
